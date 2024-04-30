@@ -382,7 +382,7 @@ if(event){
         },
 
 
-        initialCountry: "es",
+        initialCountry: "it",
         placeholderNumberType: "MOBILE",
         showFlags: true,
         showSelectedDialCode: true,
@@ -394,16 +394,16 @@ if(event){
 
         if (iti.isValidNumber()) {
           if (validationMessage) {
-            validationMessage.textContent = "Numero de teléfono valido";
+            validationMessage.textContent = "Il numero di telefono è valido";
           } else {
-            validationMessage.textContent = "Numero de teléfono valido";
+            validationMessage.textContent = "Il numero di telefono è valido";
           }
           submitButton.removeAttribute('disabled');
         } else {
           if (validationMessage) {
-            validationMessage.textContent = "Numero de teléfono invalido";
+            validationMessage.textContent = "Il numero di telefono non è valido";
           } else {
-            validationMessage.textContent = "Numero de teléfono invalido";
+            validationMessage.textContent = "Il numero di telefono non è valido";
           }
           submitButton.setAttribute('disabled', 'disabled');
         }
