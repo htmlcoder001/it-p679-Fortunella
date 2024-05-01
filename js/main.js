@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (function () {
-  var e = ["Raul", "Alex", "Tomas", "Leonel", "Saul", "Oliva", "Emilia", "Elsa", "Andrea", "Miryam"],
-    t = ["Bogotá", "Medellín", "Barranquilla", "Cartagena", "Villavicencio", "Cúcuta"],
+  var e = ["Angela", "Marisa", "Raffaella", "Anna", "Antonietta", "Valeria", "Monica", "Laura", "Francesca", "Patrizia"],
+    t = ["Roma", "Monza", "Milano", "Latina", "Udine", "Calcinate", "Brindisi", "Monte San Pietro", "Campobasso", "Modena"],
     n = document.querySelector(".alert"), a = n.querySelector(".alert__name"), r = n.querySelector(".alert__city"),
     o = n.querySelector(".alert__count"), l = "alert--show", c = null;
 
